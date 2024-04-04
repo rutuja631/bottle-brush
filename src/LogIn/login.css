@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    height: 600px;
+    /* overflow: hidden;  */
+    /* Enable horizontal scrolling */
+    /* width: 100vw; */
+    
+  }
+  
+  .image {
+    flex: 0 0 auto;
+     /* Prevent images from shrinking or growing */
+    margin-right: 10px; 
+    /* Add margin between images */
+    /* height: 90%; */
+    width: 500px;
+    
+  }
